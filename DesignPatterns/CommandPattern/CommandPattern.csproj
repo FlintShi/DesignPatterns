@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FFDCB05F-F461-4896-B8C1-41B964D06806}</ProjectGuid>
+    <ProjectGuid>{089066ED-A547-497F-9054-71AB853DBB9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MediatorPattern</RootNamespace>
-    <AssemblyName>MediatorPattern</AssemblyName>
+    <RootNamespace>CommandPattern</RootNamespace>
+    <AssemblyName>CommandPattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mediator.jpg" />
+    <Content Include="command.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
