@@ -107,5 +107,7 @@ namespace StatePattern
 
 		public void pull()
 		{ state.handlepull(this); }
+		public  Color getcolor()
+		{ return state.getcolor(); }
 	}
 }
